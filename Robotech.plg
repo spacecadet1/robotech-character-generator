@@ -1,0 +1,85 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Robotech - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP6323.TMP" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"Debug/" /Fp"Debug/Robotech.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Windows\Desktop\mfc chargen\robotech\BonusSet.cpp"
+"C:\Windows\Desktop\mfc chargen\robotech\CExtra.cpp"
+"C:\Windows\Desktop\mfc chargen\robotech\CFinalPage.cpp"
+"C:\Windows\Desktop\mfc chargen\robotech\CMOSPage.cpp"
+"C:\Windows\Desktop\mfc chargen\robotech\CParser.cpp"
+"C:\Windows\Desktop\mfc chargen\robotech\CPersonalPage.cpp"
+"C:\Windows\Desktop\mfc chargen\robotech\CSelectDlg.cpp"
+"C:\Windows\Desktop\mfc chargen\robotech\CSkill.cpp"
+"C:\Windows\Desktop\mfc chargen\robotech\CSkillPage.cpp"
+"C:\Windows\Desktop\mfc chargen\robotech\MainFrm.cpp"
+"C:\Windows\Desktop\mfc chargen\robotech\MOSSet.cpp"
+"C:\Windows\Desktop\mfc chargen\robotech\OCCSet.cpp"
+"C:\Windows\Desktop\mfc chargen\robotech\RaceSet.cpp"
+"C:\Windows\Desktop\mfc chargen\robotech\Robotech.cpp"
+"C:\Windows\Desktop\mfc chargen\robotech\RobotechDoc.cpp"
+"C:\Windows\Desktop\mfc chargen\robotech\RobotechView.cpp"
+"C:\Windows\Desktop\mfc chargen\robotech\SkillSet.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP6323.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP6324.TMP" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Robotech.pdb" /debug /machine:I386 /out:"Debug/Robotech.exe" /pdbtype:sept 
+".\Debug\BonusSet.obj"
+".\Debug\CExtra.obj"
+".\Debug\CFinalPage.obj"
+".\Debug\CMOSPage.obj"
+".\Debug\CParser.obj"
+".\Debug\CPersonalPage.obj"
+".\Debug\CSelectDlg.obj"
+".\Debug\CSkill.obj"
+".\Debug\CSkillPage.obj"
+".\Debug\CSplash.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MOSSet.obj"
+".\Debug\OCCSet.obj"
+".\Debug\RaceSet.obj"
+".\Debug\Robotech.obj"
+".\Debug\RobotechDoc.obj"
+".\Debug\RobotechView.obj"
+".\Debug\SkillSet.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Robotech.res"
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP6324.TMP"
+<h3>Output Window</h3>
+Compiling...
+SkillSet.cpp
+Generating Code...
+Skipping... (no relevant changes detected)
+BonusSet.cpp
+CExtra.cpp
+CFinalPage.cpp
+CMOSPage.cpp
+CParser.cpp
+CPersonalPage.cpp
+CSelectDlg.cpp
+CSkill.cpp
+CSkillPage.cpp
+MainFrm.cpp
+MOSSet.cpp
+OCCSet.cpp
+RaceSet.cpp
+Robotech.cpp
+RobotechDoc.cpp
+RobotechView.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Robotech.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

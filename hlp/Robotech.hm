@@ -1,0 +1,20 @@
+ 
+// Commands (ID_* and IDM_*) 
+ 
+// Prompts (IDP_*) 
+ 
+// Resources (IDR_*) 
+HIDR_MAINFRAME                          0x20080
+HIDR_ROBOTETYPE                         0x20081
+HIDR_TOOLBAR1                           0x2008F
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+HIDD_ROBOTECH_FORM                      0x20065
+HIDD_PERSONAL                           0x20066
+HIDD_SKILLS                             0x20067
+HIDD_FINAL                              0x20068
+HIDD_MOS                                0x20069
+HIDD_SELECT                             0x20083
+ 
+// Frame Controls (IDW_*) 
