@@ -1,0 +1,15 @@
+:Base ROBOTECH.hlp
+:Title Robotech
+:Index dummy=dummy.hlp ;(This is necessary when using KLinks - because of a bug in the help
+:Link dummy.hlp        ; compiler. Without this only the first keyword would be looked up!)
+1 Robotech Character Builder=SHM_contents0001@ROBOTECH.hlp
+1 Toolbar=SHM_contents0002@ROBOTECH.hlp
+1 Personal=SHM_contents0003@ROBOTECH.hlp
+1 Skills=SHM_contents0004@ROBOTECH.hlp
+1 MOS or Secondary=SHM_contents0005@ROBOTECH.hlp
+1 Final=SHM_contents0006@ROBOTECH.hlp
+1 Print/Preview=SHM_contents0007@ROBOTECH.hlp
+1 Custom Data=SHM_contents0008@ROBOTECH.hlp
+1 Disclaimer/Readme=SHM_contents0009@ROBOTECH.hlp
+1 Possible Bugs=SHM_contents0010@ROBOTECH.hlp
+1 Technical=SHM_contents0011@ROBOTECH.hlp

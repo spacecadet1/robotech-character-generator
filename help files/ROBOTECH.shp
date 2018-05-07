@@ -1,0 +1,263 @@
+##v##00.4.50
+EditHelpFileTitle.Text=Robotech
+form2.STextForeHeadline.Color=16777215
+form2.STextForeText.Color=16777215
+form2.STextBackHeadline.Color=0
+form2.STextBackText.Color=0
+form2.STextHeadlineFont.Caption=Verdana
+form2.STextTextFont.Caption=Verdana
+form2.sTextFontSizeForHeadline.Caption=18
+form2.sTextFontSizeForText.Caption=9
+form2.CBoxBold.Checked=1
+form2.CBoxNoForeColor.Checked=1
+form2.CBoxLanguageID.ItemIndex=0
+form2.CBoxCharSet.ItemIndex=0
+form2.EditContents.Text=Robotech Character Generator
+form2.EditFrontpageName.Text=Title Page
+form2.CBoxDontMakeFrontpage.Checked=1
+form2.EditLogoPath.Text=Title.bmp
+form2.EditFrontpageButtonCaption.Text=
+form2.RGroupHorizontalAlignment.ItemIndex=1
+form2.RGroupVerticalAlignment.ItemIndex=0
+form2.CBoxBlankLineBeforeEachHeading.Checked=1
+form2.CBoxMakeFrontPageButton.Checked=0
+form2.SpinEditFrontpageIDnumber.Value=9999
+form2.CBoxAddAboutMenu.Checked=0
+form2.EditAboutMenuCaption.Text=&About this help file...
+form2.CBoxPopupPagesForAboutMenu.Tag=-1
+form2.EditConstantNameFilePrefix.Text=pageConstants_
+form2.EditConstantNameFileExt.Text=txt
+form5.sTextColor1=0
+form5.sTextColor2=9743070
+form5.sTextColor3=12386403
+form5.sTextColor4=255
+form5.sTextColor5=8421376
+form5.sTextColor6=8650752
+form5.sTextColor7=33280
+form5.sTextColor8=32896
+form5.sTextColor9=13026246
+form5.sTextColor10=16711680
+form5.sTextColor11=65280
+form5.sTextColor12=8651007
+form5.sTextColor13=16777215
+form5.sTextColor14=16757429
+form5.sTextColor15=9764863
+form5.sTextColor16=8421504
+form5.sTextComment1=
+form5.sTextComment2=
+form5.sTextComment3=
+form5.sTextComment4=
+form5.sTextComment5=
+form5.sTextComment6=
+form5.sTextComment7=
+form5.sTextComment8=
+form5.sTextComment9=
+form5.sTextComment10=
+form5.sTextComment11=
+form5.sTextComment12=
+form5.sTextComment13=
+form5.sTextComment14=
+form5.sTextComment15=
+form5.sTextComment16=
+NumOfPages=10
+------------ end of project settings / page settings follow ------------
+pageC.pages[0].ImageIndex=-1
+pageTitle(0).Text=Robotech Character Builder
+getPageConstantLabel(0).Caption=
+getPageContentHeaderLabel(0).Caption=
+pageKeywords(0).Text=
+pageC.pages[1].ImageIndex=-1
+pageTitle(1).Text=Toolbar
+getPageConstantLabel(1).Caption=
+getPageContentHeaderLabel(1).Caption=
+pageKeywords(1).Text=
+pageC.pages[2].ImageIndex=-1
+pageTitle(2).Text=Personal
+getPageConstantLabel(2).Caption=
+getPageContentHeaderLabel(2).Caption=
+pageKeywords(2).Text=
+pageC.pages[3].ImageIndex=-1
+pageTitle(3).Text=Skills
+getPageConstantLabel(3).Caption=
+getPageContentHeaderLabel(3).Caption=
+pageKeywords(3).Text=
+pageC.pages[4].ImageIndex=-1
+pageTitle(4).Text=MOS or Secondary
+getPageConstantLabel(4).Caption=
+getPageContentHeaderLabel(4).Caption=
+pageKeywords(4).Text=
+pageC.pages[5].ImageIndex=-1
+pageTitle(5).Text=Final
+getPageConstantLabel(5).Caption=
+getPageContentHeaderLabel(5).Caption=
+pageKeywords(5).Text=
+pageC.pages[6].ImageIndex=-1
+pageTitle(6).Text=Print/Preview
+getPageConstantLabel(6).Caption=
+getPageContentHeaderLabel(6).Caption=
+pageKeywords(6).Text=
+pageC.pages[7].ImageIndex=-1
+pageTitle(7).Text=Custom Data
+getPageConstantLabel(7).Caption=
+getPageContentHeaderLabel(7).Caption=
+pageKeywords(7).Text=
+pageC.pages[8].ImageIndex=-1
+pageTitle(8).Text=Disclaimer/Readme
+getPageConstantLabel(8).Caption=
+getPageContentHeaderLabel(8).Caption=
+pageKeywords(8).Text=
+pageC.pages[9].ImageIndex=-1
+pageTitle(9).Text=Possible Bugs
+getPageConstantLabel(9).Caption=
+getPageContentHeaderLabel(9).Caption=
+pageKeywords(9).Text=
+pageC.pages[10].ImageIndex=-1
+pageTitle(10).Text=Technical
+getPageConstantLabel(10).Caption=
+getPageContentHeaderLabel(10).Caption=
+pageKeywords(10).Text=
+------------ end of page titles / full text of pages follow ------------
+----- SHM ---- page 0 ---- 
+\par\ql\{bml Title.bmp\}\par\ql
+
+<color=13><b><u>User Interface Guide/ Quick Tutorial</u></b>
+	<jump=SHM_contents0002>Toolbar</jump>
+	<jump=SHM_contents0003>Personal</jump>
+	<jump=SHM_contents0004>Skills</jump>
+	<jump=SHM_contents0005>MOS or Secondary</jump>
+	<jump=SHM_contents0006>Final</jump>
+	<jump=SHM_contents0007>Print/Preview</jump>
+	<jump=SHM_contents0008>Custom Data</jump>
+<b><u>Other Info</u></b>
+	<jump=SHM_contents0009>Disclaimer/Readme</jump>
+	<jump=SHM_contents0010>Possible Bugs <i>(since 2/25/04)</i></jump>
+	<jump=SHM_contents0011>Technical <i>(ODBC setup, system requirements, etc)</i></jump></color>
+----- SHM ---- page 1 ---- 
+\par\ql\{bmc toolbar.bmp\}\par\ql
+<color=13>
+<b>New</b>- starts a new character
+<b>Open</b>- opens an existing saved character
+<b>Save</b>- saves the current character
+<b>Print</b>- prints character sheet
+<b>About</b>- displays application information
+<b>Help</b>- displays help file</color>
+----- SHM ---- page 2 ---- 
+\par\ql\{bmc personal.bmp\}\par\ql
+<color=13>
+<b>Quick Tutorial</b>
+<b>1.</b> Type in character's name
+<b>2.</b> Select a race (important)
+<b>3.</b> Select an OCC (Occupational Class)
+<b>4.</b> Choose an alignment
+<b>5.</b> Click "Roll" to produce random numbers for attributes</color>
+----- SHM ---- page 3 ---- 
+\par\ql\{bmc Skills.bmp\}\par\ql
+<color=13>
+<b>Quick Tutorial (con't)</b>
+<b>6.</b> Click/Highlight a desired entry on the left list box
+<b>7.</b> Click ">>" button to add skill
+<b>8.</b> To remove a skill, click "<<" to remove user's choice
+<b>9.</b> To clear the selections made, click "Refresh" to start again.<i>(To completely start over click "New" on the toolbar)</i></color>
+----- SHM ---- page 4 ---- 
+\par\ql\{bmc MOS.bmp\}\par\ql
+<color=13>
+<b>Quick Tutorial (con't)</b>
+<b>10. </b>Click/Highlight a desired entry on the left list box
+<b>11. </b>Click ">>" button to add skill
+<b>12.</b> To remove a skill, click "<<" to remove user's choice
+<b>13.</b> To clear the selections made, click "Refresh" to start again.<i>(To completely start over click "New" on the toolbar)</i></color>
+----- SHM ---- page 5 ---- 
+\par\ql\{bmc Final.bmp\}\par\ql
+<color=13>
+<b>Quick Tutorial (con't)</b>
+<b>14.</b> To level up a character, click "Level Up"
+<b>15.</b> To level down a character, click "Level Down"
+<b>16.</b> "Add Skill" will add a new skill of user's choice</color>
+----- SHM ---- page 6 ---- 
+\par\ql\{bmc Preview.bmp\}\par\ql
+<color=13>
+<b>Quick Tutorial (con't)</b>
+<b>17.</b> To print, click "Print" on toolbar and a standard print dialog will appear
+<b>18.</b> To preview the document, go to File->Print Preview and the print preview screen will appear. Click "Close" to cancel or "Print" to finalize</color>
+----- SHM ---- page 7 ---- 
+<color=13><i>The following section requires MS Access and knowledge of SQL (Structured Query Language). There are plenty of websites that offer a quick and easy tutorials on the language, which is not to difficult to learn. What's used extensively is the "WHERE" clause of the query statements which retrieves the data you want. Note that it also case-sensitive and spelling sensitive :). To help out, you can take a look at the database tables as examples to refer to.
+</i>
+<b><u>Adding a new OCC</u></b>
+<b>1.</b> After opening up the database, click the OCC table
+<b>2.</b> Under the column "OCC", type in a name for the OCC
+<b>3.</b> Using the SQL statement "ID IN", type in the OCC skills, under "OCC Skills" column, using the id index for the skill. For example, if you want to include the skill, Cryptography that has an id index of 88, type in "ID IN (88)". You can also include more if desired, like "ID IN (77, 88, 54, 100, ...)"
+<b>4.</b> Then include the "Other skills" under the "Other" column field using the "WHERE" clause of the SQL query. Ex. <i>Category='Physical' OR (Category='WP' AND ID NOT IN (62, 22)) OR ID IN (99).</i>
+<b>5.</b> Afterwards, indicate how many skills the user is allowed to select when he or she chooses their "Other" skills. To do this type in the number under the "NumOther" column.
+<b>6.</b> <i>(Optional)</i> If you're OCC requires the user to select MOS skills or select Secondary skills (like in Macross II) do the following. Under the MOS column check to indicate that the OCC requires MOS selection or under the NumSecondary column type in the limit.
+<b>7.</b> Players will notice that OCC skills and some Other skills get a bonus. Each bonus is separated with an appersand, '&' and uses either the format of <i>[skill id] : [bonus score] </i> or a SQL statement (<i>Category='Physical' OR (Category='WP' AND ID NOT IN (62, 22)) OR ID IN (99)</i>) followed by a colon and the score ie. <i>[sql statement] : [bonus score]</i>.
+<b>8. </b>Type in the SDC of the OCC under the "SDC" column
+
+<b><u>Adding a new skill</u></b>
+<b>1.</b> After opening up the database, click the Skills table.
+<b>2.</b> Under the column "Skill", type in the name of the skill
+<b>3.</b>Under the "Category" column, type in the name of the category, like "Physical" or "Communication" or "Special" if the skill is exclusive to an OCC.
+<b>4.</b> Under the "Base" and "Experience" column, type in the base score of the skill and the amount of experience per level, respectively.
+<b>5.</b> (<i>Optional</i>) If the score doesn't require a base score, like a weapon proficiency skill, physical skill or a skill that needs to notify the user of any extra notes, you can enter extra data. To do this, click the Extra table and type in the corresponding skill id and type in the extra info under the "ID" and "Info" column.
+
+<b><u>Adding a new race</u></b>
+<i>Ex. Martian- IQ: 7d6 + 88 + 1d6, PS: 1d6 +1 +2d6 ........</i>
+<b>1.</b> To better explain this section, we'll use the above example. Click the Race table.
+<b>2.</b> Under the race column, type in the name of the race such as "Martian"
+<b>3.</b> Each attribute is broken down to three columns, for example IQ has "IQx", "IQ+", and "IQx+".  "IQx" refers to the intial role. In the Martian example it is 7d6. Type in "7" under this column to represent 7d6. This lets the program know that the intial roll requires 7 random rolls of d6s. "IQ+" refers to any additional number to be added after the intial roll. In the Maritian example it is 88. Type in "88" or whatever number you desire. "IQx+" refers to additional rolls of d6s. In the Maritian example, it is 1d6. So type in "1" or any other number including zero. Likewise for "IQ+", if the race does not require additional points, type in "0".
+<b>4.</b> Continue with the other attributes.
+
+</color>
+----- SHM ---- page 8 ---- 
+<color=13><b><u>Grant of Licence</u></b>
+
+I, Licencer, grants you the Licencee, a licence to use this software in accordance to terms contained with this licence.
+
+
+Restrictions.  You may not: (i) charge others or ask any donations; (ii) modify or translate the software; (iii) reverse engineer, decompile, or disassemble the software, except to the extent this restriction is expressly prohibited by applicable law; (iv) create derivative works based on the software; (v) merge the software with another product; (vi) copy the software; or (vii) remove or obscure any proprietary rights notices or labels on the software.
+
+<b><u>Disclaimers</u></b>
+
+This software and the accompanying files are supplied "As is", without any warranty of any kind, either expressed or implied. In no event shall the author be liable for any damages whatsoever including direct, indirect,incidental, consequential, loss of business profits or special damages from the use of this software. 
+
+I am not affiliated with Palladium Books, or Harmony Gold. Nor am I receiving monetary rewards for my work. This application is strictly freeware and shall be distrbuted without donations or funds. For more information on Robotech, go to <color=4>{\uldb www.robotech.com}{\v %!ExecFile(www.robotech.com,,9,)}</color>.
+
+Robotech and related are owned by Harmony Gold. All rights reserved. No infringement is intended.</color>
+
+----- SHM ---- page 9 ---- 
+<color=13>-The UN Spacey icon may or may not show up on the printed character sheet. It may also appear skewerd
+-Skills that cost 2 or more (like Medical Doctor skill) do not subtract the extra cost
+</color>
+
+----- SHM ---- page 10 ---- 
+<color=13><b>Development Tools</b>
+Developed with Visual C++ with MFC libraries on Windows ME & 2000 platform
+Database tables created with MS Access 2000
+Help file made with Shalom Help Maker v0.5.2 <color=4>{\uldb (author's homepage)}{\v %!ExecFile(http://www.danish-shareware.dk/soft/shelpm/index.html,,9,)}</color>
+Icons and images borrowed from various sources on the Web
+
+<b>Requirements</b>
+-Windows XP,2000,ME,98
+-MS Access drivers
+-Knowledge of SQL requried for modifying or adding data
+
+<b>Setting up the ODBC</b><i>(some material borrowed from my professor's notes ,Dr. Delin Tan)</i>
+
+In Windows 9x/NT, ODBC manager is in control panel, but in Windows 2000/XP, the ODBC manager is inside a folder named "Adminstrative Tools", which is a subfolder of Control Panel
+\par\ql\{bml ODBC1.bmp\}\par\ql
+
+First Click "System DSN" and then click "Add"
+\par\ql\{bml ODBC2.bmp\}\par\ql
+
+Click "Microsoft Access Driver" and then click "Finish"
+\par\ql\{bml ODBC.bmp\}\par\ql
+
+For "Data Source Name" type in <b><i>Robotech</i></b> and click "Select" to select the database from the hard drive. <i>Please note the database name is "Robotech.mdb" and is located in the program's directory</i>
+\par\ql\{bml ODBC3.bmp\}\par\ql
+
+Look for the physical address of database and click OK. Then click OK again
+\par\ql\{bml ODBCaddress.bmp\}\par\ql
+
+Finally the Robotech DSN is registered
+\par\ql\{bml ODBCfinish.bmp\}\par\ql
+
+</color>
